@@ -1,6 +1,6 @@
-package repository;
+package com.example.bookservice.repository;
 
-import model.Book;
+import com.example.bookservice.model.Book;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 @Repository

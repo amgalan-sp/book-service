@@ -1,9 +1,11 @@
 spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
   application:
     name: book-service
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/gallerydb
 server:
   port: 8081
 eureka:
